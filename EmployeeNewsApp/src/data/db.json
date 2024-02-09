@@ -1,0 +1,46 @@
+{
+    "ofertas": [
+        {
+            "nombre": "Limpiador",
+            "duracion": "3 meses",
+            "salario": 1000
+        },
+        {
+            "nombre": "Programador",
+            "duracion": "INDEFINIDO",
+            "salario": 1800
+        },
+        {
+            "nombre": "Agricultor",
+            "duracion": "indefinido",
+            "salario": 900
+        },
+        {
+            "nombre": "Profesor",
+            "duracion": "indefinido",
+            "salario": 2500
+        }
+    ],
+    "cursos": [
+        {
+            "nombre": "Couching Motivocional",
+            "duracion": "3 meses",
+            "salario": 1000
+        },
+        {
+            "nombre": "Magia",
+            "duracion": "2 semanss",
+            "salario": 200
+        },
+        {
+            "nombre": "Spring boot",
+            "duracion": "120 h",
+            "salario": 12
+        },
+        {
+            "nombre": "Angular",
+            "duracion": "200 horas",
+            "salario": 20
+        }
+    ]
+}

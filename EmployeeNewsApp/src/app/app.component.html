@@ -1,0 +1,18 @@
+<h1>{{title}}</h1>
+
+
+<nav>
+  <ul [ngStyle]="{'display':'flex', 
+  'justify-content': 'space-around',
+  'list-style': 'none'}">
+    <li>
+      <a routerLink="/ofertas">Ofertas</a>
+    </li>
+    <li>
+      <a routerLink="/cursos">Cursos</a>
+    </li>
+  </ul>
+</nav>
+<div>
+  <router-outlet></router-outlet>
+</div>
