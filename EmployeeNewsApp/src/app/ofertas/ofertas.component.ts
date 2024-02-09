@@ -9,7 +9,7 @@ import { HttpClient } from '@angular/common/http'
 
 export class OfertasComponent implements OnInit{
   ofertas : any;
-  filterOfertas : any;
+  filterOfertas = "";
   constructor(private http: HttpClient) { }
   ngOnInit(): void {
     this.http.get("http://localhost:3000/ofertas")

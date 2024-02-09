@@ -21,7 +21,7 @@
         </tr>
     </thead>
     <tbody>
-        <tr *ngFor="let oferta of ofertas">
+        <tr *ngFor="let oferta of ofertas | filterOfertas:filterOfertas">
             <td>{{oferta.nombre}}</td>
             <td>{{oferta.duracion}}</td>
             <td>{{oferta.salario}}</td>
